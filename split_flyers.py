@@ -3,8 +3,8 @@ import cv2
 def main():
 
     # Run SplitFlyer on all flyer images
-    for week in range(1, 2, 1):
-        for page in range(1, 3, 1):
+    for week in range(1, 10, 1):
+        for page in range(1, 5, 1):
             SplitFlyer(week, page)
 
     return True
