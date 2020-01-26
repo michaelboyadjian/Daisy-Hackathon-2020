@@ -17,6 +17,13 @@ def main():
     ItemList = items['product_name'].tolist()
     UnitList = units['units'].tolist()
 
+    IndividualItems = []
+
+    for i in range(0, len(ItemList)):
+        items = ItemList[i].split()
+        for j in range(0, len(items)):
+            IndividualItems.append(items[j])
+
     # Create pandas dataframe
     df = pd.DataFrame(columns=['flyer_name','product_name','unit_promo_price','uom','least_unit_for_promo ','save_per_unit', 'discount','organic'] )   
 
@@ -42,9 +49,22 @@ def main():
                     entry[0] = filename[0:13]
 
                 # Check Product Name
+
+                #split up the text
+                split_text = text.split()
+
+
+                #remove words from text not found in Individual Items
+                for i in range(0, len(split_text)):
+                    if split_text[i] not in IndividualItems:
+                        split_text.pop(i)
+
+                #join filtered text
+                filtered_text = " ".join(split_text)
+
                 ratios = []
                 for i in ItemList:
-                    ratios += [fuzz.ratio(i, text)]
+                    ratios += [fuzz.ratio(i, filtered_text)]
                 index = ratios.index(max(ratios))
                 entry[1] = ItemList[index]
                 ItemList.remove(ItemList[index])
