@@ -42,6 +42,7 @@ def main():
                     entry[0] = filename[0:13]
 
                 # Check Product Name
+
                 ratios = []
                 for i in ItemList:
                     ratios += [fuzz.ratio(i, text)]
@@ -54,7 +55,6 @@ def main():
                 for i in UnitList:
                     if " " + i + " " in text:
                         entry[3] = i
-
 
                 # Check discount amount
                 if 'SAVE' in text:
@@ -72,16 +72,24 @@ def main():
                         try:
                             entry[5] = "%.2f" % round(float(substring[1:dashloc]), 2)
                         except: continue
+                    text.replace(substring, " ")
 
+
+                # Get price
+                p = re.compile(r'\d+\.\d+')  # Compile a pattern to capture float values
+                floats = [float(i) for i in p.findall(text)] 
+                ints = [int(s) for s in text.split() if s.isdigit()]
+                print(ints)
+                print(floats)
 
                 # Check if product is organic
                 if 'ORGANIC' in text:
                     entry[7] = 1
 
-                print(entry)
+                print('##############')
                 df.loc[len(df)] = entry
  
-    print(df)
+    df.to_csv('output.csv', index=False)
 
     return True
 
