@@ -1,63 +1,819 @@
-flyer_name,product_name,unit_promo_price,uom,least_unit_for_promo ,save_per_unit,discount,organic
-week_1_page_4,White Florida Shrimp,,,1,,,0
-week_1_page_2,Organic Mediterranean Blend Extra Virgin Olive Oil,,,1,,,0
-week_1_page_1,Boston Butt Pork Roast & Boneless Country Style Ribs,,,1,4.00,,0
-week_1_page_3,Whole & Quartered Canned Artichoke Hearts,,,1,,,0
-week_1_page_1,Red Wine,,,1,,,0
-week_1_page_4,1 lb. Strawberries & Half Pint Strawberries,,,1,4.00,,0
-week_1_page_4,"Organic Garnet, Jewell, &  Covington Sweet Potatoe",,,1,1.00,,0
-week_1_page_3,Coldcalm,,,1,,,0
-week_1_page_2,Paper Towels,,,1,,,0
-week_1_page_3,"Sport Plan-Based Protein, Raw Fit, & Raw Meal",,,1,,,0
-week_1_page_4,Asparagus with Parmesan Vinaigrette,,,1,,,0
-week_1_page_1,Chocolate Dipped Strawberries,,,1,,,1
-week_1_page_4,"Butter, Butter Plus & Romaine Heart Leaves",,,1,2.00,,0
-week_1_page_1,Organic Grade A Pasture Raised Large Eggs,,,1,1.30,,0
-week_1_page_2,"Organic Lemonade, Limeade & Tea Lemonade Blend",,,2,1.99,,0
-week_1_page_3,"Organic Acorn, Butternut, & Spaghetti Squash",,,1,,,0
-week_1_page_4,Organic Tomatoes on the Vine,,,1,,,0
-week_1_page_1,Organic Deluxe Trail Mix & Antioxidant Trail Mix,,can,1,1.00,,0
-week_1_page_3,Deep Sleep,,,1,,,0
-week_1_page_4,"One Buns, Morning Rounds, & Snacking Rounds",,,1,,,0
-week_1_page_3,Organic Restaurant Style Tortilla Strips,,,1,,,0
-week_1_page_1,Extra Lean Stew ,,,1,,,0
-week_1_page_2,"Balanced B Complex, Blood Builder, & Turmeric Strength",,package,1,,,0
-week_1_page_4,Super Lump Crab Cakes,,,1,,,0
-week_1_page_3,Chilean Sea Bass & Wild Sockeye Salmon Spring Rolls,,,1,,,0
-week_1_page_2,"Organic Bosc, Bartlett, & Danjou Pears",,,1,,,0
-week_1_page_3,Cooked Tail-On Shrimp,,,1,,,0
-week_1_page_1,Oven Roasted & Applewood Smoked Turkey Breast,,,2,1.75,,0
-week_1_page_1,Cranberry Pecan Chicken Salad Croissant,,,2,3.49,,0
-week_1_page_3,Extra Virgin olive Oil Mediteranean Blend,,,2,0.99,,0
-week_1_page_2,Vegan Nuggets with Thai Chili Sauce,,,1,2.00,,0
-week_1_page_4,Dark Chocolate Peanut Butter Malt Balls,,,1,2.00,,0
-week_1_page_4,Salted & Unsalted Deluxe Roasted Mixed Nuts,,,1,,,0
-week_1_page_3,Teas,,,1,,,0
-week_1_page_2,"Pinot Grigio, Rose, or Sparkling Wine",,,1,,,0
-week_1_page_3,Spring & Distilled Water,,,1,,,0
-week_1_page_4,Garden Herb & Old Fashioned Potato Salad,,,1,1.50,,0
-week_1_page_3,Organic Raw Apple Cide Vinegar with Mother,,,1,,,0
-week_1_page_2,Pre-Sliced Snack Packs,,,1,,,0
-week_1_page_1,"Cleanses, Fibre Support, & Skinny Gut Shakes",,,1,10.00,,0
-week_1_page_3,"Organic Bartlett, Bosc, & Red Pears",,,1,,,0
-week_1_page_1,Pollinator friendly almond butter,,,4,0.25,,0
-week_1_page_3,Traditional Mashed Potatoes,,,1,,,0
-week_1_page_3,"Organic Red, Green, & Black Seedless Grapes",,,1,,,0
-week_1_page_4,Rainbow Coloured & Red Roses,,,1,,,0
-week_1_page_3,Pollinator Friendly Almond Butter,,,1,,,0
-week_1_page_3,8 OZ. KALE CAESAR SALAD FROM THE DELI,,,1,,,0
-week_1_page_3,Organic California Navel Oranges,,,2,0.99,,0
-week_1_page_1,Dale's Pale Ale,,,1,,,0
-week_1_page_2,Seasonal Galettes,,,1,,,0
-week_1_page_3,Entertainer Crackers,,g,1,,,0
-week_1_page_3,Organic Gluten-Free Crispy Rice Bars,,,1,,,0
-week_1_page_1,"Organic Green, Red, & Lacinato Kale",,,1,2.00,,0
-week_1_page_2,Milk Chocolate Peanut Butter Malt Balls,,,1,,,0
-week_1_page_2,Dark & Milk Chocolate French Marshmallows,,,1,,,0
-week_1_page_3,Organic Restaurant Style Tortilla Chips,,,1,,,0
-week_1_page_3,BRAND WIDE SALE,,,1,,,0
-week_1_page_2,Essential Oils & Essential Oil Blends,,,1,,,0
-week_1_page_3,Protein Superfood,,,1,,,0
-week_1_page_2,Organic Hamburger & Hot Dog Buns,,,1,,,0
-week_1_page_3,The Robin Cheese,,,1,,,0
-week_1_page_1,"Organic Butternut, Spaghetti, & Acorn Squash",,,2,3.00,,0
+,flyer_name,product_name,unit_promo_price,uom,least_unit_for_promo ,save_per_unit,discount,organic
+0,week_11_page_4,1 lb. Strawberries & Half Pint Strawberries,5.96,,4,1.49,0.25,0
+1,week_15_page_3,Unsweerened Coconut Milk,,,1,,,0
+2,week_10_page_2,Egg Rolls & Spring Rolls,1.25,,1,,,0
+3,week_9_page_2,Organic Grade A Pasture Raised Large Eggs,,,1,,,1
+4,week_1_page_2,Salted & Unsalted Deluxe Roasted Mixed Nuts,,,1,,,0
+5,week_14_page_3,Organic Mediterranean Blend Extra Virgin Olive Oil,6.5,,1,,,1
+6,week_7_page_4,Whole Seedless Watermelons,,,1,,,0
+7,week_13_page_1,24 Month Parmigiano Reggiano DOP,,,1,9.00,,0
+8,week_10_page_3,Whole & Quartered Canned Artichoke Hearts,,,1,,,0
+9,week_6_page_2,Wensleydale with Blueberries,,,1,5.00,,0
+10,week_1_page_1,"Balanced B Complex, Blood Builder, & Turmeric Strength",,,1,4.00,,0
+11,week_4_page_4,5-Pack Non-GMO Corn,2.98,,2,1.49,0.50,0
+12,week_16_page_4,Bottom Round Roast or Ground Round ,2.5,,1,,,0
+13,week_12_page_1,Chilean Sea Bass & Wild Sockeye Salmon Spring Rolls,,,1,4.00,,0
+14,week_19_page_3,Dark & Milk Chocolate French Marshmallows,,,1,1.00,,0
+15,week_2_page_2,Organic Free Range Large Brown Eggs,,,1,1.00,,1
+16,week_2_page_1,Cranberry Pecan Chicken Salad Croissant,,,1,2.00,,0
+17,week_16_page_2,"Salami, Cheese & Cracker Snack Trays",1.5,,1,,,0
+18,week_2_page_4,Hot Smoked Salmon Fillets,1.98,,2,0.99,0.50,0
+19,week_20_page_2,Cranberryt Pecan Chicken Salad,,,1,,,0
+20,week_3_page_2,Asparagus with Parmesan Vinaigrette,,,1,2.00,,0
+21,week_9_page_4,4 lb. Bag Organic Valencia Oranges,,,1,2.00,,1
+22,week_11_page_1,Organic Raw Apple Cide Vinegar with Mother,,,1,,,1
+23,week_18_page_3,Kid's Wheat & White Loaf Bread,,,1,,,0
+24,week_5_page_3,"Organic Lemonade, Limeade & Tea Lemonade Blend",,can,1,3.00,,1
+25,week_1_page_3,"Organic Garnet, Jewell, &  Covington Sweet Potatoe",,,1,,,1
+26,week_5_page_1,Oven Roasted & Applewood Smoked Turkey Breast,,,1,,,0
+27,week_13_page_2,"Pinot Grigio, Rose, or Sparkling Wine",7.50,,1,,,0
+28,week_3_page_4,Alfresco Large Pasture Raised Eggs,,,1,1.00,,0
+29,week_2_page_3,Super Pro Purified Water,1.38,,2,0.69,0.50,0
+30,week_9_page_2,Irish Cheddar in Parchment,1.5,,1,,,0
+31,week_3_page_2,Essential Oils & Essential Oil Blends,,,1,,,0
+32,week_13_page_2,Pretzel Buns,8.4,,1,,,0
+33,week_6_page_1,"Chardonnay, Cabernet, or Sauvignon Blanc",,,1,1.00,,0
+34,week_19_page_3,Rosemary Roasted Garlic Green Beans,4.5,,1,4.50,1.00,0
+35,week_4_page_1,"Cleanses, Fibre Support, & Skinny Gut Shakes",,,1,4.00,,0
+36,week_16_page_1,Boston Butt Pork Roast & Boneless Country Style Ribs,1.3,,1,3.00,2.31,0
+37,week_15_page_2,8 OZ. KALE CAESAR SALAD FROM THE DELI,,,1,,,1
+38,week_1_page_4,Jumbo Key West Pink Shrimp,,,1,4.00,,0
+39,week_7_page_2,Garden Herb & Old Fashioned Potato Salad,,,1,1.00,,0
+40,week_18_page_4,"Potato Salads, Coleslaws, & Macaroni Salad",,,1,,,0
+41,week_12_page_2,Organic Mac & Cheese & Shells & Cheddar,,,1,,,1
+42,week_19_page_2,Organic Raw Whole Cashews,,,1,2.00,,1
+43,week_18_page_3,Signature Croissant Sandwiches,,,1,,,0
+44,week_4_page_1,Whole Chicken Leg Quarters,,,1,1.00,,0
+45,week_19_page_2,Organic Deluxe Trail Mix & Antioxidant Trail Mix,,,1,,,1
+46,week_13_page_3,"Organic Red, Green, & Black Seedless Grapes",,,1,,,1
+47,week_9_page_2,18 Count Cage Free Medium Brown Eggs,3.98,,2,1.99,0.50,0
+48,week_15_page_4,"Sport Plan-Based Protein, Raw Fit, & Raw Meal",,,1,,,0
+49,week_11_page_3,Organic Frozen Vegetables,1.78,,2,0.89,0.50,1
+50,week_5_page_4,Extra Virgin olive Oil Mediteranean Blend,,,1,,,0
+51,week_20_page_3,"Butter, Butter Plus & Romaine Heart Leaves",,,1,1.00,,0
+52,week_7_page_3,Milk Chocolate Peanut Butter Malt Balls,,,1,,,0
+53,week_12_page_3,Roasted Brussel Sprouts with Garlic,2.5,,1,2.50,1.00,0
+54,week_9_page_3,"Potato Saladas, Coleslaws, & Macaroni Salad",,,1,,,0
+55,week_18_page_1,Boneless Ribeyes & Strip Steaks,,,1,4.00,,0
+56,week_4_page_2,signature Chicken Tortilla Soup,,,1,,,0
+57,week_8_page_1,Ground Turkey & Housemade Turkey Sausage,,,1,3.00,,0
+58,week_14_page_3,"Organic Green, Red, & Lacinato Kale",,,1,,,1
+59,week_10_page_3,Organic Gluten-Free Crispy Rice Bars,,,1,,,1
+60,week_18_page_3,Oven Roasted Turkey Breast ,,,1,2.00,,0
+61,week_8_page_3,Organic Honeycrisp Apple Juice,,,1,,,1
+62,week_19_page_2,Boneless Choice New York Strip Steak,7.86,,2,43.00,5.47,0
+63,week_20_page_1,Vega One Nutritional Shakes,,,1,2.00,,0
+64,week_10_page_2,Oven Roasted Turkey Breast,,,1,2.00,,0
+65,week_2_page_3,Coconut Shrimp Ring with Mango Sauce,30.4,,1,,,0
+66,week_6_page_3,Protein Bars & Powders,,,1,,,0
+67,week_3_page_3,"One Buns, Morning Rounds, & Snacking Rounds",,,1,,,1
+68,week_17_page_2,Organic Frozen Fruits & Vegetables,1.3,,1,,,1
+69,week_14_page_4,Organic Promise & Go Lean Cereal,,,1,1.00,,1
+70,week_1_page_4,5 lb. Bag Organic Russet Potatoes,,,1,1.00,,1
+71,week_14_page_4,Carving Pumpkins,2.97,,3,0.99,0.33,0
+72,week_15_page_4,Applewood Smoked & Maple Honey Ham,,,1,,,0
+73,week_10_page_3,"Organic Pasta, Rice, & Quinoa",,,1,,,1
+74,week_6_page_2,Organic Restaurant Style Tortilla Strips,,,1,,,1
+75,week_5_page_1,Organic Red & Green Seedless Grapes,,can,1,2.00,,1
+76,week_13_page_2,Organic Soy Free Pasture Raised Eggs,,,1,,,1
+77,week_17_page_1,Organic Frozen Riced Vegetables,,,1,,,1
+78,week_5_page_1,Wild Alaskan Salmon Fillet,,,1,5.00,,0
+79,week_7_page_1,Chilean Sea Bass with Butter,,,1,3.00,,0
+80,week_11_page_3,Pre Packaged Bulk,,,1,,,0
+81,week_2_page_1,"Applewood, Black Forest, & Thick Cut Bacon",,can,1,10.00,,0
+82,week_3_page_3,Unfiltered Spanish Extra Virgin Olive Oil,1.5,,1,,,0
+83,week_6_page_3,"Potato Salads, Macaroni Salad & Coleslaw",1.98,,2,0.99,0.50,0
+84,week_16_page_2,5 lb. Bag Organic Russett Potatoes,,,1,,,1
+85,week_10_page_3,Orange & Grapefruit Juices,,,1,,,0
+86,week_2_page_3,Organic Strawberry Conserves,16.5,,1,,,1
+87,week_12_page_2,Norwegian Steelhead Trout Fillet,,,1,,,0
+88,week_4_page_1,"Signature Apple, Blueberry, Cherry Pie",,,1,2.00,,0
+89,week_19_page_3,Organic Covington Jewel Sweet Potatoe,,,1,,,1
+90,week_6_page_2,All Natural Salsa,,,1,,,1
+91,week_13_page_1,Wild American White Shrimp,,,1,5.00,,0
+92,week_18_page_4,Organic Green Seedless Grapes,,,1,1.00,,1
+93,week_7_page_2,Kale Caesar Salad,4.99,,2,2.50,0.50,0
+94,week_1_page_4,Crab & Goat Cheese Stuffed Mushrooms,,,1,,,0
+95,week_3_page_1,Whole NY Strip Loins,,,1,3.00,,0
+96,week_4_page_3,Laundry Detergent,1.00,,1,,,0
+97,week_7_page_4,Organic Zucchini & Yellow Squash,,,1,1.00,,1
+98,week_11_page_3,Pollinator Friendly Almond Butter,717.00,,1,,,0
+99,week_5_page_3,Chocolate Covered Ginger,,,1,2.00,,0
+100,week_11_page_1,Organic Laundry Detergent,1.00,,1,,,1
+101,week_8_page_3,Oven Roasted & Applewood Smoked Turkey,,,1,,,0
+102,week_8_page_2,Roasted Brussels Sprouts with Garlic,,,1,2.00,,0
+103,week_10_page_4,"Organic Green, Red & Lacinato Kale",,,1,,,1
+104,week_7_page_3,Peeled & Deveined Royal Red Shrimp,,,1,,,0
+105,week_10_page_4,Seasoned Half Chickens,,,1,1.00,,0
+106,week_8_page_3,Le Cremeaux cave Aged Alpine Cheese,,,1,,,0
+107,week_4_page_2,Milk Chocolate Peanut Butter Cups,1.00,,1,2.00,2.00,0
+108,week_8_page_2,Grilled Chicken Caesar Salad,3.99,,1,,,0
+109,week_5_page_4,Organic Zuchini & Yellow Squash,1.5,,1,1.50,1.00,1
+110,week_3_page_2,Gluten-Free Loaf Bread,14.1,,1,,,0
+111,week_4_page_3,Organic Raw Apple Cider Vinegar,,,1,,,1
+112,week_7_page_4,Mixed Fruit Tub,,,1,6.00,,0
+113,week_17_page_4,Key West Pink Shrimp,,,1,5.00,,0
+114,week_1_page_4,Organic Unsweerened Dried Mango,,,1,2.00,,1
+115,week_5_page_2,Breakfast Brownie Catering Trays,,,1,,,0
+116,week_1_page_1,Frozen Angus Burger Patties,1.3,,1,1.30,1.00,0
+117,week_3_page_1,Sockeye Salmon Fillets,,,1,5.00,,0
+118,week_13_page_1,Scottish Bourbon Salmon Fillets,,,1,5.00,,0
+119,week_19_page_3,Half & Half & Whipping Cream,,,1,,,0
+120,week_13_page_2,"Boneless, Skinless Chicken Breasts",,,1,,,0
+121,week_6_page_2,Organic Garnet Sweet Potatoes,5.49,,1,,,1
+122,week_20_page_2,Organic Boneless Chicken Breast,2.98,,2,1.49,0.50,1
+123,week_13_page_3,"Boneless, Skinless Chicken Breast",1.6,,1,6.90,4.31,0
+124,week_14_page_1,Holiday Grapes,1.3,,1,1.30,1.00,0
+125,week_2_page_3,Norwegian Steelhead Trout ,2.99,,2,1.50,0.50,0
+126,week_6_page_4,Organic Sweetened Condensed Milk,,,2,0.50,,1
+127,week_20_page_2,Organic Garnet Sweet Potatoe,1.58,,1,,,1
+128,week_12_page_2,Organic Tomatoes on the Vine,7.50,,1,,,1
+129,week_4_page_1,"Boneless, Skinless Chicken Thighs",,,1,3.00,,0
+130,week_3_page_3,Mini Croccantini Crackers,1.98,,2,0.99,0.50,0
+131,week_16_page_3,Bunny Grahams & Crackers,1.98,,2,0.99,0.50,0
+132,week_18_page_3,Vanilla Raspberry Indivdual Cupcakes,7.50,,1,,,0
+133,week_17_page_1,Organic Red Seedless Grapes,,,1,1.00,,1
+134,week_5_page_1,Sockeye Salmon Fillet,,,1,,,0
+135,week_1_page_2,Pollinator friendly almond butter,3.98,,2,1.99,0.50,0
+136,week_7_page_1,Wild Alaska Salmon Fillets,,,1,3.00,,0
+137,week_11_page_3,Avocado Oil Mayonaisse,,,1,,,0
+138,week_10_page_2,Curcumin Complete: The Joint Solution,10.99,,1,,,0
+139,week_16_page_2,Whole Bean Coffee Blends,,,1,,,0
+140,week_17_page_3,Double Crusted Chicken Pot Pies,,,1,,,0
+141,week_16_page_1,Sirloin Tip Roast or Stew Beef,4.99,,1,,,0
+142,week_12_page_3,Boneless Boston Butt Pork Roast,,,1,,,0
+143,week_16_page_3,Bread Crumbs,,,1,,,0
+144,week_18_page_2,Organic unsweetened Dried Mango,,,1,,,1
+145,week_15_page_2,Sangiovese Riserva DOCG,7.50,,1,,,0
+146,week_4_page_4,Organic Dark Maple Syrup Squeeze Bottle,,,1,,,1
+147,week_1_page_3,Organic Whole Kernel Coconut Oil,,,1,,,1
+148,week_14_page_4,Organic Garnet Jewel Swee Potatoe,,,1,,,1
+149,week_2_page_3,Frozen Gluten Free Mini Pizzas,,,1,,,0
+150,week_17_page_2,Restaurant Style Tortilla Chips,4.95,,5,0.99,0.20,0
+151,week_14_page_4,6 oz. Scottish Salmon Fillets,2.98,,2,1.49,0.50,0
+152,week_1_page_4,Organic Grape Tomatoes,,,1,,,1
+153,week_19_page_2,Organic Whole Milk Plain Yougurt,1.3,,1,,,1
+154,week_6_page_1,Red & Green Seedless Grapes,,can,1,2.00,,0
+155,week_19_page_1,Nordic Berries & Assorted Gummies,5.5,,1,3.00,0.55,0
+156,week_18_page_1,Skirt & Flank Steaks,,,1,3.00,,0
+157,week_4_page_2,Broccoli Bacon Salad,,,1,2.00,,0
+158,week_11_page_2,8-Inch Round & Custom Sheet Cakes,4.99,,2,2.50,0.50,0
+159,week_7_page_3,Wisconsin Reserve Sharp Cheddar,,,1,3.00,,0
+160,week_12_page_4,Blueberries & Blackberries,3.98,,1,,,0
+161,week_9_page_2,Natural Hamburger & Hot Dog Buns,,can,1,,,0
+162,week_5_page_4,Turmeric Supreme Extra Strength,,,1,,,0
+163,week_4_page_1,Organic Soy Non-Dairy Beverage,,,1,4.00,,1
+164,week_13_page_3,Frozen Organic Vegetables,,,1,,,1
+165,week_14_page_2,Double Crusted Chicken Pot Pie,,,1,2.00,,0
+166,week_14_page_3,Vitamin D3 & B12 Supplements,,,1,,,0
+167,week_18_page_3,4-Pack Croissants,,,1,2.00,,0
+168,week_1_page_1,Organic Eggs Grade A Brown Large Omega,,can,1,1.00,,1
+169,week_7_page_2,Organic Cold Cereal & Granola,,,1,,,1
+170,week_19_page_3,Organic Gravenstein Apple Juice,,,1,,,1
+171,week_4_page_1,Organic Blueberry Almond Granola,,,1,,,1
+172,week_15_page_4,Turkey & Hame Croissant Sandwich,,,1,,,0
+173,week_13_page_2,Oven Roastes Turkey Breast,,,1,2.00,,0
+174,week_5_page_1,Blackened Chicken Salad Wrap,,,1,,,0
+175,week_13_page_2,5-Pack Cookie Sandwiches,,,1,1.00,,0
+176,week_9_page_2,Organic Chickpea Snacks,1.38,,2,0.69,0.50,1
+177,week_5_page_2,Sharp & Medium Cheddar Cheese,1.00,,1,2.00,2.00,0
+178,week_16_page_3,Gouda with Mediterranean Herbs,,,1,,,0
+179,week_3_page_2,Vegan Mock Chicken Salad,,,1,1.00,,0
+180,week_9_page_4,Organic Jewel Sweet Potatoe,1.98,,2,0.99,0.50,1
+181,week_18_page_3,Cleanses Fiber & Omega Support,,,1,6.00,,0
+182,week_4_page_2,Vegan Chicken Salads,,,1,1.00,,0
+183,week_18_page_4,Allergy ReLeaf System,0.33,,1,,,0
+184,week_4_page_4,Real Blue Crab Dips,1.98,,2,0.99,0.50,0
+185,week_2_page_1,Organic Hamburger & Hot Dog Buns,,,1,2.00,,1
+186,week_4_page_2,Organic Hamburger & Hotdog Buns,,,1,,,1
+187,week_12_page_1,Organic Peaches & Nectarines,,,1,1.00,,1
+188,week_4_page_4,Bone-In Split Chicken Breasts,,,1,2.00,,0
+189,week_16_page_4,Stew Beef & Sirloin Tip Roast,,,1,2.00,,0
+190,week_12_page_1,Wild Bourbon Salmon Fillets,,,1,8.00,,0
+191,week_6_page_4,Whole Seedless Watermelon,,,1,,,0
+192,week_19_page_3,High HP Alkaline Ionized Water,2.58,,2,1.29,0.50,0
+193,week_20_page_1,Whole Beef Tenderloins,,,1,7.00,,0
+194,week_8_page_2,Cookie & Brownie Catering Trays,1.5,,1,,,0
+195,week_14_page_3,"Shower Gels, Body Lotions & Butters",1.38,,2,0.69,0.50,0
+196,week_11_page_4,Authentic Brioche Hamburer Buns,,,1,,,0
+197,week_15_page_3,Organic California Navel Oranges,3.98,,2,1.99,0.50,1
+198,week_1_page_4,Non-GMO Organic Honeycrisp Apples,,,1,,,1
+199,week_19_page_1,Blackened Chicken Salad,5.5,,1,5.50,1.00,0
+200,week_7_page_4,Chocolate Raspberry Indivdual Cupcakes,,,1,3.00,,0
+201,week_14_page_2,Cranberry Pecan Chicken Salad,,,1,,,0
+202,week_3_page_3,Garden Herb Potato Salad,,,1,,,0
+203,week_6_page_3,Flesh & Blood IPA or Punkin Ale,,,1,,,0
+204,week_14_page_4,Pollinator Friendly Whole Almonds,,,1,,,0
+205,week_12_page_2,"Signature Red, White & Blue Pie",2.99,,1,,,0
+206,week_14_page_4,Organic Red Bell Peppers,2.98,,2,1.49,0.50,1
+207,week_18_page_2,Organic Maple Creme Cookies,,,1,,,1
+208,week_19_page_3,All Organic Juices & Smoothies,,,1,,,1
+209,week_1_page_3,Lemonade & Limeade,,,1,,,0
+210,week_20_page_3,Icelandic Steelhead Trout,,,1,,,0
+211,week_19_page_4,Ground Sirlon or Round,,,1,,,0
+212,week_20_page_1,Refrigerated Almond Milk,,,1,,,0
+213,week_16_page_3,Organic California Naval Oranges,,,1,,,1
+214,week_17_page_4,House-Made Pork Sausages,,,1,2.00,,0
+215,week_11_page_2,Signature & Carolina Coleslaws ,,,1,,,0
+216,week_12_page_3,Organic Florida Orange Juice,,,1,4.00,,1
+217,week_18_page_4,Bone-In Split Chicken Breast,,,1,2.00,,0
+218,week_2_page_2,Sharp Cheddar Cheese,1.00,,1,2.00,2.00,0
+219,week_10_page_1,"Chardonnay, Cabernet, & Merlot",3.5,,1,3.50,1.00,0
+220,week_15_page_4,Graduation Catering Trays,,,1,3.00,,0
+221,week_6_page_2,Seriously indulgent Yogurt,,can,1,3.00,,0
+222,week_12_page_3,8-Inch & Quarter Sheet Cakes,,,1,,,0
+223,week_17_page_3,"Sweet Potato, Quinoa, & Kale",,,1,2.00,,0
+224,week_1_page_2,Everything Seasoned Smoked Salmon,,,1,,,0
+225,week_17_page_1,Organic White & Brown Rice,,,1,,,1
+226,week_2_page_1,Green Seedless Grapes,,can,1,,,0
+227,week_11_page_2,Candy Cane Truffles & Marshmallows,7.50,,1,,,0
+228,week_9_page_2,Natural Hamburger & Hotdog Buns,,,1,,,0
+229,week_7_page_1,"Pinot Grigio, Montepulciano d'Abruzzo",,can,1,2.00,,0
+230,week_9_page_4,House-Made Pork Sausage,,,1,1.00,,0
+231,week_16_page_2,High HO Alkanized Ionized Water,,,1,1.00,,0
+232,week_10_page_4,8-Pack Mini Croissants,,,1,,,0
+233,week_8_page_1,BBQ Ribs Baby Back-Full Rack,11.99,,1,,,0
+234,week_18_page_3,Winter Blend Coffee,,,1,,,0
+235,week_14_page_1,Scottish Salmon Fillets,,,1,4.00,,0
+236,week_6_page_1,Traditional Mashed Potatoes,,,1,,,0
+237,week_9_page_3,Organic Flour Tortillas,,,1,,,1
+238,week_6_page_4,"Grass Fed Yougurt, & Cheese",,,1,3.00,,0
+239,week_13_page_1,Organic Cereal & Cereal Bars,,,1,6.00,,1
+240,week_14_page_3,"Arnica Tables, Gel, & Cream",,,1,,,0
+241,week_20_page_4,Boneless Pork Loin Roast,,,1,,,0
+242,week_9_page_4,Seasonings & Liquid Flavorings,,,1,,,0
+243,week_19_page_1,House-Made Roast Beef Baguette,,,1,,,0
+244,week_15_page_2,Chardonnay or Cabernet,10.99,,1,,,0
+245,week_3_page_1,Organic Plain Whole Milk Yogurt,,can,1,1.00,,1
+246,week_2_page_3,Fat Tire Belgian White,,,1,,,0
+247,week_17_page_1,High ph Alkaline Ionized Water,,,1,3.00,,0
+248,week_7_page_4,Coconut & Tornado Shrimp Rings,2.98,,2,1.49,0.50,0
+249,week_5_page_3,House-Made Grill-Ready Burgers,10.4,,1,,,0
+250,week_5_page_4,Crab Stuffed Mushrooms,2.9,,1,2.90,1.00,0
+251,week_16_page_3,Organic Virgin Coconut Oil,3.98,,2,1.99,0.50,1
+252,week_18_page_2,Chocolate Snacking Candy,2.98,,2,1.49,0.50,0
+253,week_8_page_2,Turkey & Cheddar Croissant,,,1,,,0
+254,week_14_page_3,Organic Orange Bell Peppers,,,1,,,1
+255,week_2_page_2,Oven Roasted Turkey,,,1,2.00,,0
+256,week_8_page_4,Organic Celery,2.98,,2,1.49,0.50,1
+257,week_10_page_4,Organic Eggs Grade A Brown Large,,,1,3.00,,1
+258,week_7_page_3,Organic Deluxe Mac & Cheese,,,1,,,1
+259,week_11_page_4,Bourbon Salmon Fillets,2.98,,2,1.49,0.50,0
+260,week_1_page_3,Kettle Cooked Potato Chips,,,1,,,0
+261,week_1_page_2,Organic Zesty Carrot Juice,,,1,,,1
+262,week_19_page_1,Organic Lacinato Kale,,,2,0.50,,1
+263,week_6_page_2,Wild Alaska Cod with Butter,16.99,,1,,,0
+264,week_18_page_1,Breaded Pork & Chicken Cutlets,4.98,,2,2.49,0.50,0
+265,week_20_page_1,Maine Lobster Tails,9.99,,2,5.00,0.50,0
+266,week_16_page_3,Organic Apple Cider Vinegar,,,1,,,1
+267,week_16_page_4,Heirloom Pumpkins,,,1,,,0
+268,week_20_page_3,Griffin Tomme-Style Cheese,,,1,9.00,,0
+269,week_6_page_4,Salsa & Guacamole,,,1,,,0
+270,week_2_page_1,Organic Roasted Peanut Butter,2.5,,1,2.50,1.00,1
+271,week_14_page_2,5-pack cookie sandwiches,,,1,1.00,,0
+272,week_8_page_4,3 lb. Bag Organic Gala Apples,,,1,1.00,,1
+273,week_2_page_2,Savory Smashed Sweet Potatoes,,,1,,,0
+274,week_12_page_1,Applewood Smoked Turkey Breast,,,1,5.00,,0
+275,week_4_page_2,Whole Ribeyes or Strips,,,1,,,0
+276,week_2_page_4,Seedless Watermelons,,,1,,,0
+277,week_8_page_4,Pasture-Raised Alfresco Butter,,,1,,,0
+278,week_18_page_4,All Eye Relief Formulas,,,1,,,0
+279,week_6_page_3,Organic Cheese Slices,,,1,,,1
+280,week_9_page_4,Wild White American Shrimp,,,1,3.00,,0
+281,week_5_page_4,Wild Alaska Cod Fillets,1.98,,2,0.99,0.50,0
+282,week_5_page_1,Signature Pimento Cheese,,,1,,,0
+283,week_11_page_3,Organic Canned Tomatoes,1.95,,5,0.39,0.20,1
+284,week_15_page_1,Honeycrisp Apples,,,1,,,0
+285,week_3_page_4,Boneless Ribeye Steaks ,,,1,3.00,,0
+286,week_11_page_2,Smoked Rosemary Promontory,7.50,,1,,,0
+287,week_19_page_3,Toothpaste & Mouthwash,,,1,,,0
+288,week_13_page_2,Organic Walnut Halves & Oieces,,,1,,,1
+289,week_11_page_3,Cage-Free Large Brown Eggs,,,1,,,0
+290,week_6_page_1,Alaska Cod Fillets,,,1,5.00,,0
+291,week_13_page_4,2 lb. Bag Organic Lemons,12.9,,1,4.00,0.31,1
+292,week_16_page_1,Chillean Sea Bass Portion,1.3,,1,1.30,1.00,0
+293,week_15_page_2,Seasonal Fruit Galettes,,,1,2.00,,0
+294,week_1_page_1,Free Range Large Brown Eggs,3.5,,2,1.75,0.50,0
+295,week_13_page_3,Organic Pumpkin Spiced Cider,,,1,,,1
+296,week_17_page_2,Alkaline Electrolyte Water,,,1,,,0
+297,week_11_page_1,Organic Sweet Potatoes,,,1,,,1
+298,week_13_page_3,Organic Chicken Bone Broth,11.4,,1,,,1
+299,week_7_page_4,Organic Kale Lemonade,,,2,0.50,,1
+300,week_10_page_2,Lime Pilsner & Golden Ale,8.99,,1,,,0
+301,week_5_page_3,Organic Blueberries,,,1,1.00,,1
+302,week_12_page_4,Organic Yukon Gold Potatoes,,,1,,,1
+303,week_7_page_3,Refrigerated Probiotics,,,1,,,0
+304,week_2_page_4,Organic Cauliflower,3.99,,1,,,1
+305,week_5_page_3,8-Inch Signature Blueberry Pie,,,1,,,1
+306,week_17_page_3,ECOS Liquid Laundry Detergent,,,1,,,1
+307,week_18_page_2,Vegetable Catering Trays,,,1,,,0
+308,week_18_page_1,Chocolate Dipped Strawberries,,,1,3.00,,0
+309,week_8_page_1,Sweetheart Ribeye Steak,,,1,,,0
+310,week_12_page_3,3 lb. Bag Organic gala Apples,1.58,,2,0.79,0.50,1
+311,week_18_page_1,Green Goddess Smoothie,,,1,5.00,,0
+312,week_8_page_1,Rainbow Coloured & Red Roses,6.99,,1,,,0
+313,week_12_page_4,Organic Beef Patty Pack,3.98,,2,1.99,0.50,1
+314,week_17_page_3,Single Essential Oils & Blends,1.98,,2,0.99,0.50,0
+315,week_11_page_3,Cookies By the Pound,,,1,,,0
+316,week_2_page_1,Chicken Chili Verde,,,1,,,0
+317,week_15_page_3,Cage Free Large White Eggs,,,1,,,0
+318,week_1_page_1,Red Raspberry Punch Smoothie,6.98,,2,3.49,0.50,0
+319,week_17_page_2,Organic Ground Beef Brick,,,1,,,1
+320,week_6_page_1,Organic Chicken Sausage,,,1,3.00,,1
+321,week_20_page_2,Roasted Pistachios In-Shell,,,1,,,0
+322,week_16_page_1,Non-GMO Honeycrisp Apples,,,1,2.00,,0
+323,week_15_page_2,10-Pack Mini Cookies,,,1,1.00,,0
+324,week_19_page_3,Ester-C Supplements,,,1,,,0
+325,week_15_page_4,Heirloom Blue Eggs,,,1,,,0
+326,week_5_page_1,Organic Sweet Vidalia,,,1,4.00,,1
+327,week_5_page_3,Alkaline Water+ Electrolytes,,,1,,,0
+328,week_9_page_2,Organic Microwavable Popcorn,,,1,4.00,,1
+329,week_15_page_1,Organic 3 lb. Bag Gala Apples,5.96,,1,3.00,0.50,1
+330,week_10_page_2,Maple Caramel Cupcakes,9.99,,1,,,0
+331,week_16_page_2,Meadowkaas Spring Milk Gouda,,,1,2.00,,0
+332,week_2_page_4,Seasonal Dairy Beverages,,,1,3.00,,0
+333,week_18_page_4,Fiesta Size Tortilla Chips,,,1,,,0
+334,week_2_page_1,Spring & Distilled Water,2.57,,1,,,0
+335,week_4_page_4,East Coast White Shrimp,,,1,4.00,,0
+336,week_2_page_2,Alfresco Large Grade A Eggs,2.5,,1,,,0
+337,week_13_page_4,Organic Hummus Original,,,1,,,1
+338,week_15_page_2,Brownie Bites and Black,,,2,0.50,,0
+339,week_6_page_4,Dark Ground Turkey Pack,3.5,,1,3.50,1.00,0
+340,week_16_page_4,Natural Calm Magnesium Support,3.98,,1,1.00,0.25,1
+341,week_18_page_1,Alaska Sockeye Salmon,,,1,5.00,,0
+342,week_15_page_4,Chicken Parmesan Scaloppini,1.98,,2,0.99,0.50,0
+343,week_1_page_3,Spring or Purified Water,1.98,,2,0.99,0.50,0
+344,week_7_page_4,Day Boat Sea Scallops,,,1,4.00,,0
+345,week_1_page_2,Edamame Dumpling Salad,,,1,2.00,,0
+346,week_4_page_3,Non-Fat Greek Yogurt,2.5,,1,2.50,1.00,0
+347,week_19_page_1,Boneless Pork Loin Chops,4.98,,2,2.49,0.50,0
+348,week_7_page_3,Italian Tomato 7 Caper Orzo,4.5,,1,,,0
+349,week_2_page_2,Original Chicken Salad Wrap,,,1,,,0
+350,week_9_page_3,Chante Garlic & Herb Dip,,,1,,,1
+351,week_18_page_1,Organic Seasonal Ciders,,,1,,,1
+352,week_20_page_2,Natural Jumbo Paper Towel,,,1,,,0
+353,week_2_page_4,Organic Red & Black  Plums,,,2,0.50,,1
+354,week_4_page_2,Applewood Smoked Turkey,,,1,2.00,,0
+355,week_5_page_4,Alaskan Cod Cakes,5.96,,4,1.49,0.25,0
+356,week_16_page_3,Cheese Shreds & Slices,,,1,,,0
+357,week_5_page_2,Covington Sweet Potatoes,,,1,,,0
+358,week_9_page_2,Cabernet & Chardonnay,3.98,,2,1.99,0.50,0
+359,week_7_page_4,Organic Pink Lady Apples,1.5,,1,1.50,1.00,1
+360,week_5_page_2,Unsweetened Almond Milk,,,1,,,0
+361,week_19_page_1,Spring Vegetable Salad,,,1,,,0
+362,week_7_page_2,8-Inch Cakes & Sheet Cakes,,,1,1.00,,0
+363,week_15_page_2,"""""""Hot 7 Fresh Specialty 18"""""""" Pizza""""""",12.99,,1,,,0
+364,week_15_page_3,Alaska Coho Salmon Fillets,,,1,,,0
+365,week_7_page_3,Liquid Dish Detergent,,,1,,,0
+366,week_3_page_1,Organic Beef Patties,,,1,,,1
+367,week_19_page_4,Organic Honeycrisp Apples,,,1,1.00,,1
+368,week_13_page_1,Chicken Wing Platter,1.3,,1,1.30,1.00,0
+369,week_20_page_4,Ribeyes & Strip Steaks,,,1,4.00,,0
+370,week_9_page_4,Seedless Watermelon,,,1,,,0
+371,week_13_page_3,Chocolate Malt Balls,,,1,1.00,,0
+372,week_6_page_2,Chicken Sea Bass Portion,,,1,,,0
+373,week_10_page_2,Sparkling Mineral Water,,,1,,,0
+374,week_14_page_1,Organic English Muffins,,,1,1.00,,1
+375,week_10_page_3,Organic Bartlett Pears,,,1,,,1
+376,week_6_page_1,Organic Braeburn Apples,,,1,,,1
+377,week_2_page_2,Body Lotions & Shower Gels,,,1,7.00,,0
+378,week_4_page_1,Queen's Edition Blue Stilton,,,1,1.00,,0
+379,week_20_page_2,Pumpkin Streusel Loaf,1.98,,2,0.99,0.50,1
+380,week_12_page_1,10-pack thin & Crispy Cookies,11.99,,1,,,0
+381,week_6_page_4,Goat Cheese Medallions,1.98,,2,0.99,0.50,0
+382,week_1_page_2,New Zealand Sharp Cheddar,10.99,,1,,,0
+383,week_17_page_1,Morning & Snacking Rounds,,,1,1.00,,0
+384,week_9_page_2,Vegan Cheese Shreds,,,1,,,0
+385,week_7_page_1,8-Inch Signature Apple Pie,,can,1,2.00,,0
+386,week_10_page_1,Alaska Salmon Fillets,,,1,,,0
+387,week_2_page_2,Hamburger & Hot Dog Buns,,,1,,,0
+388,week_14_page_2,House Made Chicken Kabobs,,,1,,,0
+389,week_4_page_4,Organic Frozen Fruit,1.98,,2,0.99,0.50,1
+390,week_11_page_4,Organic Kid's Loaf Bread,,,1,1.00,,1
+391,week_6_page_2,Maple Cream Cupcakes,7.99,,1,,,0
+392,week_17_page_3,Noodle & Rice Bowls,5.98,,2,2.99,0.50,0
+393,week_17_page_4,Scottish Bourbon Salmon,2.98,,2,1.49,0.50,0
+394,week_12_page_3,Organic Green Cabbage,,,1,,,1
+395,week_14_page_4,Organic Green Kale,,,2,0.50,,1
+396,week_19_page_3,Norwegian Stellhead Trout,7.50,,1,,,0
+397,week_1_page_3,Celebration Beer,,,1,,,0
+398,week_3_page_4,Entertainer Crackers,1.5,,2,43.00,28.67,0
+399,week_6_page_3,Organic Lemonade Mix,,,1,,,1
+400,week_12_page_2,6-Pack Mini Maple Danish,,,1,1.00,,0
+401,week_13_page_4,Chardonnay or Cimarron,,,1,,,0
+402,week_19_page_2,Beef Steak or Filet Kebobs,1.98,can,2,0.99,0.50,0
+403,week_14_page_2,Attack of the Veggies Wrap,,,1,,,1
+404,week_12_page_4,Wild American Shrimp,1.98,,2,0.99,0.50,0
+405,week_5_page_3,Liquid Laundry Detergent,1.00,,1,,,0
+406,week_2_page_2,mock vegan chicken salad,,,1,1.00,,0
+407,week_17_page_3,8-Pack Mini Croissant,,,1,1.00,,0
+408,week_10_page_4,Ultimate Flora Go Pack,,,1,,,0
+409,week_2_page_4,Heirloom Tomatoes,,,1,1.00,,0
+410,week_8_page_2,Organic Yellow Bell Peppers,,,1,2.00,,1
+411,week_8_page_3,Colombia Seasonal Coffee,2.18,,2,1.09,0.50,0
+412,week_4_page_3,Tomatoes on the Vine,7.50,,1,,,0
+413,week_9_page_4,8 Days a Week Blonde Ale,,,1,,,0
+414,week_18_page_2,Mini Gluten Free Pizza,,,1,,,0
+415,week_5_page_4,Organic Applesauce,,,1,1.00,,1
+416,week_17_page_4,Steelbird Chardonnay,4.98,,1,,,0
+417,week_7_page_4,Complete Omega Formulas,,,1,,,0
+418,week_2_page_3,Broccoli & Cranberry Salad,,,1,,,0
+419,week_5_page_2,Organic Tortilla Chips,,,1,,,1
+420,week_9_page_2,Mini Brownie Muffin Bites,,,1,,,0
+421,week_3_page_1,Chilean Sea Bass,,,1,4.00,,0
+422,week_11_page_1,Organix Deluxe Mac & Cheese,1.5,,1,1.50,1.00,0
+423,week_15_page_3,Broccoli Cranberry Salad,2.58,,2,1.29,0.50,0
+424,week_13_page_1,Organic Butler Pears,,,1,1.00,,1
+425,week_1_page_4,Australian Style Yogurt,1.5,,1,1.50,1.00,0
+426,week_19_page_1,"Facial, Body, & Hair Care",3.99,,1,,,0
+427,week_1_page_3,Organic Dessert Syrups,4.99,,1,,,1
+428,week_14_page_2,Chicken Breast Kabobs,,,1,2.00,,0
+429,week_12_page_4,Indian Prepared Meals,,,1,3.00,,0
+430,week_19_page_4,Alaska Cod Cakes,5.96,,1,,,0
+431,week_9_page_3,Organic Medjool Dates,,,1,1.00,,1
+432,week_2_page_3,Organic Deluxe Mac&Cheese,9.86,,2,43.00,4.36,1
+433,week_3_page_2,Natural Peanut Butter,,,1,,,0
+434,week_15_page_3,Organic Hamburger Buns,11.4,,1,,,1
+435,week_2_page_1,Organic Vidalia Onion,,,1,2.00,,1
+436,week_10_page_2,Seasonal Galettes,,,1,,,0
+437,week_11_page_2,BRAND WIDE SALE,,,1,,,0
+438,week_15_page_1,Build Your Own Smoothie,,,1,,,0
+439,week_1_page_2,Pre-Sliced Snack Packs,,,1,,,0
+440,week_16_page_2,Organic strawberries,,,1,,,1
+441,week_17_page_3,Energy Seed Salad,1.58,,2,0.79,0.50,0
+442,week_10_page_1,Red Seedless Grapes,,can,1,1.00,,0
+443,week_11_page_2,Whole Fruit Tart,,,1,,,0
+444,week_1_page_1,Lemon Caper Salmon Cake,,,1,10.00,,0
+445,week_19_page_4,Ribeyes & NY Strip Steaks,,,1,2.00,,0
+446,week_12_page_3,Succulent Hanging Globe,717.00,,1,,,0
+447,week_1_page_3,Quarter Sheet Cakes,,,1,,,0
+448,week_4_page_4,Digestive Support,,,1,,,0
+449,week_12_page_2,Coconut Oil Potato Chips,,,1,,,0
+450,week_13_page_4,Organic Filet Mignon,3.98,,2,1.99,0.50,1
+451,week_3_page_4,Croissant Sandwiches,,,1,,,0
+452,week_6_page_3,Mexican Street Corn,1.98,,2,0.99,0.50,0
+453,week_17_page_2,Organic Canned Soups,1.98,,2,0.99,0.50,1
+454,week_19_page_1,Unsweerened Almond Milk,,,1,,,0
+455,week_4_page_3,Zero Calorie Soda,,,1,,,0
+456,week_8_page_3,Organic Strawberries,10.5,,1,,,1
+457,week_8_page_1,Blackberry Elderberry Syrup,,,1,,,0
+458,week_8_page_2,Organic PB&J Smoothie,,,1,,,1
+459,week_20_page_2,Sparking Fruit Juices,2.98,,2,1.49,0.50,0
+460,week_20_page_3,Franks in Puff Pastry,,,1,,,0
+461,week_18_page_1,Roasted Thai Cury Cashews,2.96,,4,0.74,0.25,0
+462,week_11_page_3,Organic Loaf Bread,,,1,,,1
+463,week_9_page_1,Golden Monkey & Sour Monkey,,,1,1.00,,0
+464,week_10_page_4,Porterhouse Steaks,11.99,,1,3.00,0.25,0
+465,week_8_page_4,Jewel Sweet Potatoes,,,1,,,0
+466,week_5_page_4,Organic Ready-to-Eat Rice,,,1,,,1
+467,week_20_page_3,Alaska King Salmon Fillets,,,1,,,0
+468,week_14_page_3,Nutritional Bars,2.5,,1,2.50,1.00,0
+469,week_16_page_4,Organic Red Kale,,,1,,,1
+470,week_16_page_2,8-Inch Signature Cherry Pie,,,1,,,0
+471,week_5_page_4,Boneless Pork Chops,3.75,,1,3.75,1.00,0
+472,week_9_page_2,Whole Ribeyes & Strips,,,1,,,0
+473,week_18_page_3,Flavored Cottage Cheese,,,1,2.00,,0
+474,week_12_page_4,Grass Fed Whey Powder,8.45,,1,4.00,0.47,0
+475,week_20_page_4,Organic Whole Turkey,,,1,,,1
+476,week_17_page_2,Sprouted Loaf Bread ,1.00,,1,,,0
+477,week_11_page_1,Strips or Ribeyes,,,1,3.00,,0
+478,week_7_page_2,Original Chicken Salad,8.99,,1,,,0
+479,week_1_page_1,Hass Avocados,,,4,0.25,,0
+480,week_18_page_2,Frozen Mini Quiches,0.29,,1,,,0
+481,week_13_page_4,Pinot Noir & Pinot Gris,,,1,,,0
+482,week_15_page_2,boneless pork roast,,,1,2.00,,0
+483,week_14_page_1,Signature Mac & Cheese,,,1,3.00,,0
+484,week_18_page_2,Jar & Stick Deodorants,,,1,,,1
+485,week_2_page_2,Appalachian Smoothie,10.99,,1,,,0
+486,week_6_page_1,9-Inch Natural Fruit Pies,,,1,2.00,,0
+487,week_13_page_2,Meatless Substitutes,,,1,,,0
+488,week_5_page_2,American White Shrimp,,,1,,,0
+489,week_2_page_3,Boomchickapop,1.38,,2,0.69,0.50,0
+490,week_19_page_2,Made-In-House Chicken Kabobs,24.99,,1,,,1
+491,week_3_page_2,10 Pack Mini Cookies,,,1,1.00,,0
+492,week_13_page_2,Dark Chocolate Almonds,,,1,,,0
+493,week_18_page_2,Croissant Sandwich,2.5,,1,2.50,1.00,0
+494,week_9_page_4,Alaska Salmon Fillet,,,1,5.00,,0
+495,week_13_page_3,Organic Pasta Sauce,,,1,,,1
+496,week_2_page_4,3 lb. Bag Clementines,,,1,3.00,,0
+497,week_8_page_4,Pork Crown Roast,,,1,,,0
+498,week_12_page_3,Organic Yellow Onions,,,1,,,1
+499,week_12_page_1,seedless Watermelon,,,1,,,0
+500,week_14_page_2,Pork Breakfast Sausages,,,1,,,0
+501,week_10_page_1,Organic Gala Apples,,,1,,,1
+502,week_20_page_3,Refrigerated Teas,,,1,4.00,,0
+503,week_6_page_4,Organic Apple Sauce,,,1,1.00,,1
+504,week_16_page_4,Frozen Vegetables,3.98,,2,1.99,0.50,0
+505,week_10_page_3,Scottish Salmon Fillet,1.98,,2,0.99,0.50,0
+506,week_18_page_1,Individual Cinnamon Rolls,,,1,1.00,,0
+507,week_4_page_3,Organic Cold Cereal,1.98,,2,0.99,0.50,1
+508,week_19_page_2,Garden Veggie Baguette,,,1,,,0
+509,week_15_page_1,Alaska Salmon FIllet,,,1,6.00,,0
+510,week_11_page_4,Sliced Lunch Meats,,,1,,,0
+511,week_7_page_3,Organic Golden Rounds,8.6,,1,,,1
+512,week_15_page_1,White American Shrimp,,,1,4.00,,0
+513,week_4_page_3,Iridescent Coffee,17.99,,1,,,0
+514,week_20_page_1,Scotish Salmon Steak,,,1,5.00,,0
+515,week_9_page_2,Gluten Free Bread,,,1,,,0
+516,week_1_page_3,Meatloaf & Meatballs,,,1,,,0
+517,week_10_page_3,Icelandic Style Yogurt,,,1,,,0
+518,week_6_page_2,5-Pack Large Cookies,1.3,,1,1.30,1.00,0
+519,week_18_page_1,Cowboy Cut Bone-In Ribeye,1.98,,2,0.99,0.50,0
+520,week_14_page_4,Organic Ginger Snaps,,can,1,1.00,,1
+521,week_20_page_3,Country Style Pork Ribs,,,1,,,0
+522,week_6_page_4,Organic Broccoli,1.5,,1,1.50,1.00,1
+523,week_12_page_1,Organic Herb Stuffing,,,2,1.00,,1
+524,week_5_page_1,Organic Yellow Squash,,,1,,,1
+525,week_10_page_1,Black Elderberry Syrup,2.98,,2,1.49,0.50,0
+526,week_2_page_2,Organic Baby Carrots,,,1,,,1
+527,week_6_page_2,Tortellini Pasta Salad,8.99,,1,,,0
+528,week_18_page_4,Boneless Pork Roast,1.5,,1,1.50,1.00,0
+529,week_8_page_2,Organic Hot Dog Buns,,,1,,,1
+530,week_16_page_1,Ribeye & Strip Steaks,,,1,3.00,,0
+531,week_8_page_4,Wild Alaska Salmon,5.96,,4,1.49,0.25,0
+532,week_9_page_4,Chicken Rollers,,,1,3.00,,0
+533,week_5_page_2,Red Sunset Juice,,,1,,,0
+534,week_3_page_2,Quarter Sheet Cake,,,1,,,0
+535,week_1_page_3,Hazy Little Thing IPA,,,1,,,0
+536,week_13_page_2,Jar & Stick Deodorant,5.98,,2,2.99,0.50,0
+537,week_13_page_4,Healthy Meals On-The-Go,,,1,1.00,,0
+538,week_6_page_4,Le petite Fromage,,,1,4.00,,0
+539,week_20_page_2,Organic Strip Steak,,,1,,,1
+540,week_11_page_3,Organic Cleaners,3.99,,1,,,1
+541,week_6_page_1,Strips & Ribeyes,,,1,3.00,,0
+542,week_11_page_1,Penne & Smoked Gouda,,,1,3.00,,0
+543,week_7_page_2,Pepper Jack Cheese,,,1,,,0
+544,week_17_page_2,Boston Butt Pork Roast,,,1,,,0
+545,week_18_page_4,Maple Caramel Cake,,,1,,,0
+546,week_18_page_3,Black & White Cookies,,,1,1.00,,0
+547,week_6_page_1,"Hair, Facial, & Body Care",,,1,,,0
+548,week_14_page_2,Wild Cedar Plank Salmon,5.99,,1,,,0
+549,week_16_page_2,Crispy Chicken Salad,,,1,,,0
+550,week_5_page_4,Ice Cream Novelties,,,1,3.00,,0
+551,week_3_page_2,Salsa and Guacamole,,,1,2.00,,0
+552,week_20_page_3,Napa Chicken Salad,5.5,,1,5.50,1.00,0
+553,week_10_page_2,Party Dips & Spreads,,,1,,,0
+554,week_11_page_4,Organic Sirloin Steak,1.98,,2,0.99,0.50,1
+555,week_17_page_3,Organic Kids Cereal,7.50,,1,,,1
+556,week_8_page_4,Beef Burger Patties,,,1,,,0
+557,week_7_page_3,Go Go Geen Juice,,,1,,,0
+558,week_12_page_4,Pumpkin Down & Sculpin,2.97,,3,0.99,0.33,0
+559,week_8_page_1,King Salmon Fillets,6.99,,2,3.50,0.50,0
+560,week_19_page_1,Chai Spiced Smoothie,,,1,4.00,,0
+561,week_1_page_3,Organic Hotdog Buns,1.98,,2,0.99,0.50,1
+562,week_19_page_2,Pisgah Crunch Trail Mix,2.98,,2,1.49,0.50,0
+563,week_9_page_1,Snackables & Samplers,8.49,,1,,,0
+564,week_12_page_2,Medium Cheddar Cheese,,,1,,,0
+565,week_7_page_3,Men's Health,,,1,,,1
+566,week_6_page_3,Tuna & Cucumber Baguette,,,1,,,0
+567,week_17_page_2,Organic Coconut Oil,1.5,,1,,,1
+568,week_19_page_3,Fruit Catering Trays,18.33,,1,6.00,0.33,0
+569,week_14_page_4,Morning Rounds,3.98,,2,1.99,0.50,0
+570,week_13_page_4,Ground Sirloin,,,1,3.00,,0
+571,week_9_page_3,Organic Mustards,,,1,,,1
+572,week_4_page_4,Whole Tenderloins,,,1,,,0
+573,week_8_page_2,Organic DAnjou Pears,,,1,,,1
+574,week_17_page_3,4-Inch Chocolate Cake,1.99,,1,1.99,1.00,0
+575,week_10_page_1,8-inch Round Sheet Cake,,,1,2.00,,0
+576,week_5_page_1,Tomatoes on-the-vine,4.98,,2,2.49,0.50,0
+577,week_11_page_4,Vegetable Pancakes,,,1,2.00,,0
+578,week_11_page_3,Orange Bell Peppers,,,1,,,0
+579,week_2_page_1,Almond Butter Squeeze,,,1,4.00,,0
+580,week_15_page_1,Food-Based Minerals,,,1,3.00,,0
+581,week_16_page_2,Organic Peru Coffee,,,1,,,1
+582,week_3_page_3,Individual Croissant,,,1,3.00,,0
+583,week_20_page_2,Organic Conserves,,,1,,,1
+584,week_6_page_4,Scottish Salmon,,,1,4.00,,0
+585,week_12_page_2,Dayboat Sea Scallops,,,1,,,0
+586,week_4_page_1,Phalaenopsis Orchid,1.3,,1,1.30,1.00,0
+587,week_14_page_3,Organic Ribeye Steak,,,1,,,1
+588,week_2_page_2,All Day Session IPA,15.99,,1,,,0
+589,week_6_page_2,Applewood Smoked Ham,,,1,2.00,,0
+590,week_9_page_3,Deli case meal deals,,,1,,,0
+591,week_4_page_3,Organic Frozen Pizza,4.99,,1,,,1
+592,week_7_page_3,Liquid Castille Soaps,1.58,,1,,,0
+593,week_13_page_3,Almond & Cashew Milks,,,1,,,0
+594,week_3_page_1,Whole Chickens ,1.3,,1,1.30,1.00,0
+595,week_11_page_1,YoKids Yogurt Pouches,,,1,5.00,,0
+596,week_17_page_2,Stress Relax Formulas,7.8,,1,,,0
+597,week_13_page_1,Organic 85/15 Ground Beef,,can,1,1.00,,1
+598,week_5_page_3,House-Made Roast Beef,1.58,,2,0.79,0.50,0
+599,week_3_page_2,Tomatoes on-the-Vine,,,1,2.00,,0
+600,week_5_page_4,Mock Chicken fajitas,,,1,,,0
+601,week_2_page_4,Signature Chili,,,1,1.00,,0
+602,week_8_page_2,Oktoberfest & Pale Ale,,,1,,,0
+603,week_4_page_2,Market Style Bacon,2.47,,1,4.00,1.62,0
+604,week_2_page_3,Organic Honey Bear,1.98,,2,0.99,0.50,1
+605,week_10_page_4,Whey Protein Powder,,,1,1.00,,0
+606,week_8_page_1,Organic Ground Beef,,can,1,2.00,,1
+607,week_11_page_2,One Village Coffee,,,1,,,0
+608,week_10_page_2,Greek Yogurt Flips,1.3,,1,1.30,1.00,0
+609,week_12_page_3,Collagen Supplements,1.3,,1,,,0
+610,week_18_page_1,Roast Beef Baguette,9.99,,1,,,0
+611,week_2_page_4,Yellowfin Tuna Steaks,,,1,,,0
+612,week_17_page_3,Mandarin Kale Salad,12.99,,1,,,0
+613,week_11_page_4,Jumbo Roll Paper Towels,3.98,,2,1.99,0.50,0
+614,week_12_page_4,Organic Packham Pear,,,1,1.00,,1
+615,week_20_page_3,8-Pack Mini Scones,1.5,,1,1.50,1.00,0
+616,week_17_page_4,Canned Pink Salmon,,,1,3.00,,0
+617,week_20_page_2,Bacon Wrapped Scallops,,,1,,,0
+618,week_4_page_1,Organic Phyllo Dough,,can,1,2.00,,1
+619,week_1_page_3,FULL RACK OF BABY BACK RIBS,,,1,,,0
+620,week_12_page_4,Top Sirloin Steaks,7.98,,2,3.99,0.50,0
+621,week_4_page_3,Organic Tahini,95.99,,1,,,1
+622,week_11_page_1,Curry Chicken Salad,,,1,2.00,,0
+623,week_20_page_4,WomenSense Supplements,2.00,,1,,,1
+624,week_18_page_4,Pimento Cheese Deep,1.5,,1,1.50,1.00,0
+625,week_13_page_1,Maple Cream Cake,,,1,3.00,,1
+626,week_1_page_1,Jersey Fresh Chese,,,1,2.00,,0
+627,week_5_page_2,Bath Tissue Double Roll,3.98,,2,1.99,0.50,0
+628,week_20_page_2,Organic Zuchini,15.2,,1,,,1
+629,week_15_page_4,Goat Milk Formula,,,1,1.00,,0
+630,week_13_page_2,Rustic Red Cheddar,,,1,1.00,,0
+631,week_19_page_3,Standing Rib Roast,,,1,,,0
+632,week_3_page_4,Thick Cut Bacon,,,1,,,0
+633,week_5_page_2,Valencia Oranges,,,1,,,0
+634,week_17_page_1,Bone-In Pork Chops,,,1,3.00,,0
+635,week_13_page_2,4-Pack Croissant,,,1,1.00,,0
+636,week_15_page_3,Make Your Own Pizza Kit,,,1,,,0
+637,week_5_page_3,Clothbound Cheddar,8.99,can,1,3.00,0.33,0
+638,week_1_page_2,Fruit Galettes,,,1,,,0
+639,week_18_page_4,Oven Roastes Turkey ,,,1,,,0
+640,week_2_page_4,Salami & Pepperoni,,,1,,,0
+641,week_8_page_4,Shredded Cheese,10.07,,1,1.00,0.10,0
+642,week_12_page_1,Lemon Basil Halibut,1.5,can,1,1.50,1.00,0
+643,week_4_page_2,Florida White Shrimp,1.5,,1,,,0
+644,week_12_page_3,Indian Meals On-The-Go,14.75,,1,,,0
+645,week_17_page_2,"""""""Take & Bake Large 16"""""""" Pizza""""""",4.99,,1,,,0
+646,week_10_page_1,Gluten Free Donuts,,,1,,,0
+647,week_14_page_2,Protein & Greens,,,1,,,0
+648,week_20_page_3,Omega 3 Support,,,1,,,0
+649,week_16_page_4,Campo de Montalban,2.97,,3,0.99,0.33,0
+650,week_20_page_1,Organic Hummus Edamame,,,1,,,1
+651,week_10_page_3,Tortilla Chips,2.98,,2,1.49,0.50,1
+652,week_1_page_2,5-Pack Cookies,,,1,,,0
+653,week_7_page_4,Grill Ready Burgers,1.98,,2,0.99,0.50,0
+654,week_4_page_3,Pinot Grigio,17.99,,1,,,0
+655,week_15_page_3,Love Crunch Granola,,,1,,,0
+656,week_9_page_1,Mini Brownie Muffins,3.98,,1,,,0
+657,week_13_page_4,Snacking Chocolate,2.98,,1,,,0
+658,week_14_page_4,All-Purpose Cleaner,1.98,,2,0.99,0.50,0
+659,week_6_page_3,Family Pasta Meals,2.45,,5,0.49,0.20,0
+660,week_13_page_3,Gluten-Free Waffles,,,1,,,0
+661,week_11_page_4,Bone-In Ribeye Steak,1.5,,1,1.50,1.00,0
+662,week_15_page_3,Green Superfood,1.2,,1,,,0
+663,week_8_page_4,Sumo Mandarins,,,1,,,0
+664,week_10_page_4,Alaska Cod Fillet,5.96,,4,1.49,0.25,0
+665,week_2_page_4,Organic Zucchini,1.5,,1,1.50,1.00,1
+666,week_4_page_3,Stellhead Trout,9.49,,1,,,0
+667,week_17_page_4,Yellow Bell Peppers,,,1,,,0
+668,week_9_page_2,Halloween Cupcakes,,,1,,,0
+669,week_2_page_3,Cowboy Cut Ribeye Steak,2.57,,1,,,0
+670,week_7_page_4,Belgian White Ale,,,1,,,0
+671,week_5_page_2,Cranberry Sauce,,,1,1.00,,0
+672,week_13_page_1,Vitamin B12 & D3 Gummies,,g,1,,,0
+673,week_7_page_2,Sodas & Root Beers,,,1,,,0
+674,week_18_page_2,Organic Baguette,,,1,,,1
+675,week_15_page_1,Single Cupcakes,2.97,,3,0.99,0.33,0
+676,week_9_page_4,Organic Squash,1.5,,1,1.50,1.00,1
+677,week_18_page_3,Southern Peaches,,,1,,,0
+678,week_1_page_3,Organic Maple Syrup,,,1,,,1
+679,week_19_page_4,Bottom Round Roast,2.5,,5,0.50,0.20,0
+680,week_13_page_1,Chickbean Crisps,,,1,2.00,,0
+681,week_10_page_3,Moscato-Pinot Grigio,,,1,1.00,,0
+682,week_13_page_3,Whole Beef Brisket,,,1,,,0
+683,week_6_page_2,Brand wide sale,,,1,,,0
+684,week_14_page_1,Organic Lemons,,,1,,,1
+685,week_4_page_1,Organic Coffee K-Cups,,,1,2.00,,1
+686,week_20_page_2,Riced Vegetables,,,1,,,0
+687,week_16_page_1,Pork Tenderloin,,,1,3.00,,0
+688,week_4_page_1,White Florida Shrimp,12.99,,1,,,0
+689,week_16_page_2,All Sparkling Wine,1.98,,2,0.99,0.50,0
+690,week_6_page_3,Frozen Kid's Meals,,,1,,,0
+691,week_3_page_3,Sparkling Moscato,7.50,,1,,,0
+692,week_11_page_2,French Bar Soaps,,,1,,,0
+693,week_7_page_1,Romaine Hearts,,,1,,,0
+694,week_12_page_1,4 pack croissants,,,1,4.00,,0
+695,week_16_page_2,Chicken Wing Buckets,21.49,pack,1,,,0
+696,week_10_page_1,Whole Chickens,1.3,,1,1.30,1.00,0
+697,week_5_page_1,Non-Dairy Ice Cream,,,1,,,0
+698,week_8_page_3,Bunny Crackers,1.98,,2,0.99,0.50,0
+699,week_12_page_3,Vegetable Juices,39.99,,1,,,0
+700,week_8_page_4,Almond Butter,,,1,,,0
+701,week_8_page_2,4-Pack Muffins,,,1,1.00,,0
+702,week_15_page_4,Wild Cod Fillets,,,1,5.00,,0
+703,week_6_page_2,Swiss Cheese,,,1,2.00,,0
+704,week_18_page_2,Organic Mangoes,1.00,,1,,,1
+705,week_19_page_3,Baguette Sandwich,4.99,,2,2.50,0.50,0
+706,week_4_page_4,Organic Tea Bags,1.98,,2,0.99,0.50,1
+707,week_14_page_4,Beef Wellington,,,1,,,0
+708,week_3_page_3,Wellness Superfoods,,,1,2.00,,0
+709,week_6_page_3,Applesauce,,,1,,,0
+710,week_3_page_4,Organic Borccoli,1.5,can,1,1.50,1.00,1
+711,week_6_page_3,Liquid Dish Soap,1.00,,1,,,0
+712,week_14_page_3,Organic DHA Milk,,,1,,,1
+713,week_20_page_1,Build Your Own Juice,4.98,,2,2.49,0.50,0
+714,week_6_page_1,Whole Chicken,1.3,,1,1.30,1.00,0
+715,week_19_page_2,Organic Soup Cups,1.38,pack,2,0.69,0.50,1
+716,week_14_page_3,Multigrain Cereals,1.2,,1,,,0
+717,week_20_page_1,Protein Superfoods,4.98,,2,2.49,0.50,1
+718,week_6_page_1,Pork Baby Back Ribs,,,1,4.00,,0
+719,week_10_page_2,Extra Lean Stew ,9.99,,1,,,0
+720,week_19_page_2,Chocolate Truffles,1.5,,1,,,0
+721,week_9_page_1,Boneless Ribeyes,2.5,,1,2.50,1.00,0
+722,week_8_page_3,Gluten-Free Oats,,,1,,,0
+723,week_12_page_2,Organic Carrots,,,1,,,1
+724,week_14_page_4,Salad Dressing,,,1,,,0
+725,week_13_page_4,Pepita Corn Salad,2.97,,3,0.99,0.33,0
+726,week_3_page_3,Non-Fat Freek Yogurt,2.5,,1,2.50,1.00,0
+727,week_17_page_2,Chocolate Bars,1.98,,2,0.99,0.50,0
+728,week_3_page_4,Lamb Shoulder Chops,,,1,,,0
+729,week_4_page_4,Zyflamend Whole Body,,,1,,,0
+730,week_17_page_2,Hotdogs & Knockwurst,,,1,,,0
+731,week_6_page_2,Hemperor Pale Ale,90.79,,1,,,0
+732,week_8_page_3,Turmeric Formulas,,,1,,,0
+733,week_18_page_2,Organic Raisins,,,1,,,1
+734,week_8_page_4,Filet Kabobs,,,1,2.00,,0
+735,week_11_page_2,Digest Gold Enzymes,,,1,2.00,,0
+736,week_20_page_3,Scrimshow Pilsner,,,1,,,0
+737,week_4_page_2,4-Pack Pumpkin Bars,,,1,1.00,,0
+738,week_12_page_1,Baby Back Pork Ribs,,,1,3.00,,1
+739,week_16_page_2,Canned Pineapple,7.50,,1,,,0
+740,week_10_page_1,Organic Bottles,,,2,0.50,,1
+741,week_5_page_1,"All Day, PC Pilsner",,,1,4.00,,0
+742,week_2_page_1,Cream Top Yogurt,,,1,4.00,,0
+743,week_5_page_2,Snacking Rounds,,,1,,,0
+744,week_3_page_4,Cashew Ice Cream,2.97,,3,0.99,0.33,0
+745,week_1_page_2,Tenderloin Kabobs,,,1,,,0
+746,week_17_page_1,organic Cucumbers,,,1,1.00,,0
+747,week_3_page_2,Organic Ice Cream,4.99,,2,2.50,0.50,1
+748,week_10_page_4,Italian Baguette,,,1,1.50,,0
+749,week_16_page_2,Organic Hummus ,3.98,,2,1.99,0.50,1
+750,week_6_page_3,Signature Burger,1.38,,2,0.69,0.50,0
+751,week_4_page_1,Brand Wide Sale,,,1,,,0
+752,week_10_page_3,Natural Hamburger,717.00,,1,,,0
+753,week_6_page_4,White Shrimp,,,1,3.00,,0
+754,week_20_page_2,Protein Superfood,,,1,,,0
+755,week_12_page_2,Sparkling Ciders,,,1,,,0
+756,week_16_page_1,Fresh Mozzarella,,,1,3.00,,0
+757,week_14_page_1,Non-Gmo 5-pack Corn,,,1,2.00,,0
+758,week_6_page_2,Juice Bar Happy Hour,,,1,,,0
+759,week_9_page_4,Cuban Black Beans,,,1,,,0
+760,week_18_page_3,Digestive Enzymes,,,1,,,0
+761,week_20_page_4,Clementines,,,1,2.00,,0
+762,week_15_page_2,Grassmilk Yogurt,,,1,,,0
+763,week_15_page_3,Top Sirloin Steak,,,1,,,0
+764,week_3_page_1,Smoked Salmon,,,1,3.00,,1
+765,week_7_page_2,Organic Kombucha,,,1,,,1
+766,week_17_page_4,Lunch Meats,,,1,,,0
+767,week_5_page_2,Spry Gum & Mints,,,1,,,0
+768,week_3_page_2,Organic Juices,,,1,,,1
+769,week_18_page_2,English Muffins,1.38,,3,0.46,0.33,0
+770,week_4_page_2,Caprese Baguette,,,1,,,0
+771,week_8_page_3,Organic Wines,,,1,,,1
+772,week_7_page_2,Red Bell Peppers,,,1,1.00,,0
+773,week_13_page_4,Organic Cookies,,,2,0.50,,1
+774,week_12_page_2,Energy Drink,,,1,,,0
+775,week_15_page_3,ORGANIC BAGUETTE,1.89,,1,,,1
+776,week_1_page_2,Cold Brew Coffee,,,1,,,0
+777,week_8_page_3,Organic Sugar,,,1,,,1
+778,week_9_page_1,Take & Bake Pizza,,,1,,,0
+779,week_18_page_1,Catering Trays,,,1,,,0
+780,week_6_page_2,4-pack croissants,,,1,1.00,,0
+781,week_20_page_1,Frozen Berries,,,1,,,0
+782,week_6_page_4,Canned Tomatoes,,,1,,,0
+783,week_20_page_3,Almond Butters,,,1,2.00,,0
+784,week_12_page_1,Chicken Sausage,,,1,2.00,,0
+785,week_4_page_2,Fabric Softener,,,1,1.00,,0
+786,week_8_page_3,Bartlett Pears,,capsule,1,,,0
+787,week_20_page_3,Air Freshener,,,1,,,0
+788,week_11_page_2,Tortilla Strips,,,1,1.00,,0
+789,week_16_page_3,Poison Ivy Relief,,,1,,,0
+790,week_3_page_4,Shrimp Skewers,,,1,3.00,,0
+791,week_5_page_2,Maple Honey Ham,,,1,2.00,,0
+792,week_9_page_2,NY Strip Stteak,3.98,,1,,,0
+793,week_17_page_1,Boneless Ribeye,6.99,,1,5.00,0.72,0
+794,week_5_page_3,Two-Hearted Ale,8.99,,1,,,0
+795,week_5_page_1,Frozen Appetizers,,,1,,,1
+796,week_16_page_1,Organic Yogurt,,,1,3.00,,1
+797,week_7_page_1,Rose Can Wine,,,1,,,0
+798,week_19_page_3,Frozen entrees,3.99,,1,,,0
+799,week_10_page_2,Frozen Burritos,,,1,,,0
+800,week_11_page_1,Nutrional Bars,,,1,,,0
+801,week_18_page_4,Organic Beans,,,1,2.00,,1
+802,week_13_page_1,Pork Carnitas,,,1,1.00,,0
+803,week_12_page_2,Purified Water,,,1,2.00,,0
+804,week_1_page_1,Organic Cabbage,5.99,,2,3.00,0.50,1
+805,week_18_page_3,Zum Bars & Mists,,,1,2.00,,0
+806,week_9_page_4,Organic Pasta,,,1,1.00,,1
+807,week_14_page_2,Avocado Oil Chips,,,1,,,0
+808,week_12_page_4,Flank Steaks,,,1,2.00,,0
+809,week_20_page_3,Salted Butter,,,1,,,0
+810,week_17_page_4,Chicken Breast,1.98,,2,0.99,0.50,0
+811,week_5_page_4,Sauvignon Blanc,,,1,,,0
+812,week_11_page_3,Almond Milk,,,1,,,0
+813,week_10_page_2,Qi'a Superflakes,,,1,5.00,,0
+814,week_14_page_3,Creme Cookies,,,1,,,0
+815,week_8_page_1,Plantain Strips,4.99,,1,,,0
+816,week_11_page_2,Un-Salted Butter,,,1,2.00,,0
+817,week_18_page_2,Frozen Fries,,,1,,,0

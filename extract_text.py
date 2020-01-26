@@ -17,6 +17,13 @@ def main():
     ItemList = items['product_name'].tolist()
     UnitList = units['units'].tolist()
 
+    IndividualItems = []
+
+    for i in range(0, len(ItemList)):
+        items = ItemList[i].split()
+        for j in range(0, len(items)):
+            IndividualItems.append(items[j])
+
     # Create pandas dataframe
     df = pd.DataFrame(columns=['flyer_name','product_name','unit_promo_price','uom','least_unit_for_promo ','save_per_unit', 'discount','organic'] )   
 
@@ -30,7 +37,7 @@ def main():
             # Extract text using pytesserect
             text = pytesseract.image_to_string(im)
 
-            if text:
+            if len(text.split()) > 15:
 
                 # Create dataframe entry
                 entry = ['', '', '', '', 1, '', '', 0]
@@ -43,18 +50,34 @@ def main():
 
                 # Check Product Name
 
+                # split up the text
+                brokentext = text.split()
+
+                # remove words from text not found in Individual Items
+                for word in brokentext:
+                    if word not in IndividualItems:
+                        index = brokentext.index(word)
+                        brokentext.pop(index)
+
+                # Join filtered text
+                filtered_text = " ".join(brokentext)
+
                 ratios = []
                 for i in ItemList:
-                    ratios += [fuzz.ratio(i, text)]
-                index = ratios.index(max(ratios))
-                entry[1] = ItemList[index]
-                ItemList.remove(ItemList[index])
+                    ratios += [fuzz.ratio(i, filtered_text)]
+                try: 
+                    index = ratios.index(max(ratios))
+                    entry[1] = ItemList[index]
+                    ItemList.remove(ItemList[index])
+                except:
+                    continue
 
                 # Check Unit of Measure
                 ratios = []
                 for i in UnitList:
-                    if " " + i + " " in text:
+                    if i in brokentext:
                         entry[3] = i
+
 
                 # Check discount amount
                 if 'SAVE' in text:
@@ -72,24 +95,40 @@ def main():
                         try:
                             entry[5] = "%.2f" % round(float(substring[1:dashloc]), 2)
                         except: continue
-                    text.replace(substring, " ")
 
 
-                # Get price
+                # Check price
+                ints = [int(s) for s in text.split() if s.isdigit()]
                 p = re.compile(r'\d+\.\d+')  # Compile a pattern to capture float values
                 floats = [float(i) for i in p.findall(text)] 
-                ints = [int(s) for s in text.split() if s.isdigit()]
-                print(ints)
-                print(floats)
+                if ints:
+                    for i in ints:
+                        if len(str(i)) > 2:
+                            string = str(i)
+                            try:
+                                entry[2] = string[:-2] + "." + string[-2:]
+                            except: continue
+                if floats:
+                    try:
+                        entry[2] = floats[0]
+                    except: continue 
+                        
+                # Discount
+                if entry[2] and entry[5]:
+                    try:
+                        entry[6] =  "%.2f" % round( (float(entry[5]) / float(entry[2])), 2)
+                    except: continue
 
                 # Check if product is organic
-                if 'ORGANIC' in text:
+                if 'ORGANIC' in text or 'Organic' in entry[1]:
                     entry[7] = 1
 
-                print('##############')
+                print(entry)
                 df.loc[len(df)] = entry
  
-    df.to_csv('output.csv', index=False)
+    print(df)
+
+    df.to_csv("output.csv")
 
     return True
 
